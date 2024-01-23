@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> API </title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styel.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top ">
+        <div class="container">
+            <a class="navbar-brand">Menu</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="linkOne">pizza</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " id="linkFour">pasta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " id="linkThree">potato</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " id="linkTwo">lemon</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container pt-5">
+        <div class="row" id="rowData">
+
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalId" tabindex="-1" data-bs-keyboard="false" role="dialog"
+        aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable  modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitleId">
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/API.js"></script>
+</body>
+
+</html>
